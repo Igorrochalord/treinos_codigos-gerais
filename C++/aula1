@@ -1,0 +1,29 @@
+//cin >>
+//cout<<
+
+#include "iostream"
+#include <stdlib.h>
+using namespace std;
+int main() {
+    struct aluno {
+        char nome[50];
+        float matricula;
+        char curso[50];
+    } turma[5];
+    struct aluno *p;
+    int i;
+    for( i= 0; i<1; i++) {
+        p = (struct aluno*)malloc(sizeof(struct aluno));
+        cout<<"Digite o seu nome: ";
+        cin>>p->nome;
+    }
+
+return 0;
+}
+
+//testando se foi alocada a memoria
+if (1p)
+{
+    cout<<'nao consegui alocar a memoria'
+    exit(1);
+}
